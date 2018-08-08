@@ -9,12 +9,12 @@ export default new Router({
     {
       path: '/',
       name: 'Login',
-      component: (resolve) => require(['@/components/Index/Login'], resolve)
+      component: (resolve) => require(['@/page/Login'], resolve)
     },
     {
-      path: '/three',
-      name: 'Three',
-      component: (resolve) => require(['@/components/Index/Three'], resolve)
+      path: '/index',
+      name: 'Index',
+      component: (resolve) => require(['@/page/Index'], resolve)
     }
   ]
 })
