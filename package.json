@@ -13,10 +13,13 @@
   "dependencies": {
     "axios": "^0.18.0",
     "babel-plugin-import": "^1.8.0",
+    "canvas": "^1.6.11",
+    "contextify": "^1.0.0",
     "echarts": "^4.1.0",
     "exports-loader": "^0.7.0",
     "imports-loader": "^0.8.0",
     "iview": "^3.0.0",
+    "node-gyp": "^3.8.0",
     "three": "^0.95.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
